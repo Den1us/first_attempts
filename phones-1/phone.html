@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="phone.ico" type="image/x-icon">
+    <script src="phone.js"></script>
+	<title>MobiCoin</title>
+</head>
+<body>
+	<header>
+		<div class="logo" onclick="slowScroll('#top')">
+			<span>MobiCoin</span>
+		</div>
+		<div class="about">
+			<a href="#" title="about" onclick="slowScroll('#main')">About us</a>
+			<a href="#" title="offers" onclick="slowScroll('#offers')">Offers</a>
+			<a href="#" title="help" onclick="slowScroll('#help')">Help</a>
+			<a href="#" title="account" onclick="slowScroll('#account')">Account</a>
+		</div>
+	</header>
+
+	<div id="top">
+		<h1>MobiCoin - the best phone store in Europe</h1>
+		<h3>Order a phone right now!</h3>
+	</div>
+
+	<div id="main">
+		<div class="intro">
+			<h2>Just a little about us!</h2>
+			<span>At present, it is difficult to imagine a person’s life without mobile phones; they have firmly established their positions. In this regard, it is important to buy a high-quality mobile phone or smartphone that will serve you for a long period of time. To do this in Europe, as in other cities as well as in other large cities, is not at all difficult, but what to do if you are a very busy person and you do not have time for shopping. In this case, use the Internet!</span>
+		</div>
+		<div class="text">
+			<span>Note that in the "MobiCoin" online store in Europe, everyone can make a purchase of a mobile phone / smartphone of any brand at reasonable prices that are suitable for people with different incomes and desires. It offers the most popular manufacturers and models of only the highest quality today. At the same time, the low price is an important aspect! Please note that all mobile phones and smartphones in the store in question are checked and have all the necessary certificates. Buying a mobile phone or smartphone is considered not easy, and often in stores they can’t talk about all its functions. The "MobiCoin" online store greatly simplifies this task, since all information about the selected devices is located directly on the site.</span>
+		</div>
+	</div>
+
+	<div class="overview">
+		<h2>Benefits</h2>
+		<h4>It's easier with us!</h4>
+
+		<div class="img">
+			<img src="img1.jpg" width="400px" height="325px" alt="">
+			<span>The most expensive phones</span>
+		</div>
+		<div class="img">
+			<img src="img2.jpg" width="400px" height="325px" alt="">
+			<span>Budget phones</span>
+		</div>
+		<div class="img">
+			<img src="img3.jpg" width="400px" height="325px" alt="">
+			<span>The rarest phones</span>
+		</div>
+		<div class="img">
+			<img src="img4.jpg" width="400px" height="325px" alt="">
+			<span>Old school</span>
+		</div>
+	</div>
+    
+    <div class="container-1">
+        <div class="box-1">
+        	<img class="img_iphone11" src="iphone11black.png" id="iphone11">
+        </div>
+        <div class="box-2">
+        	<button class="btnblack11" onclick="document.getElementById('iphone11').src='iphone11black.png'"></button>
+            <button class="btnwhite11" onclick="document.getElementById('iphone11').src='iphone11white.png'"></button>
+            <button class="btnyellow11" onclick="document.getElementById('iphone11').src='iphone11yellow.png'"></button>
+            <button class="btnred11" onclick="document.getElementById('iphone11').src='iphone11red.png'" type="button"></button>
+        </div>
+        <div class="box-3">
+        		<p><b>Display: </b>6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology</p>
+                <p><b>Chip: </b>A13 Bionic chip, Third‑generation Neural Engine</p>
+                <p><b>Capacity: </b>64GB/128GB/256GB</p>
+                <p><b>Protection: </b>Rated IP68 (maximum depth of 2 meters up to 30 minutes) under IEC standard 60529</p>
+                <p><b>TrueDepth Camera: </b>12MP camera, 4K video recording at 24 fps, 30 fps, or 60 fps</p>
+                <p><b>Video Recording: </b>Cinematic video stabilization (4K, 1080p, and 720p)</p>
+                <p><b>Face ID: </b>Enabled by TrueDepth camera for facial recognition</p>
+                <p><b>Apple Pay: </b>Pay with your iPhone using Face ID in stores, within apps, and on the web</p>
+                <p><b>Apple Card: </b>Titanium, laser‑etched physical credit card for use where Apple Pay is not accepted yet</p>
+
+        </div>
+
+    </div>
+<!--
+ <div class="salary">
+     <h2>Buy now!</h2>
+        <div class="container1">
+            <div class="box1_1">
+                <img class="img_iphone11" src="iphone11black.png" id="iphone11">
+            </div>
+            <div class="box1_2">
+                <p><b>Display: </b>6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology<br>
+                    <b>Chip: </b>A13 Bionic chip, Third‑generation Neural Engine<br>
+                    <b>Capacity: </b>64GB/128GB/256GB<br>
+                    <b>Protection: </b>Rated IP68 (maximum depth of 2 meters up to 30 minutes) under IEC standard 60529<br>
+                    <b>TrueDepth Camera: </b>12MP camera, 4K video recording at 24 fps, 30 fps, or 60 fps<br>
+                    <b>Face ID: </b>Enabled by TrueDepth camera for facial recognition<br>
+                    <b>Apple Pay: </b>Pay with your iPhone using Face ID in stores, within apps, and on the web<br>
+                    <b>Apple Card: </b>Titanium, laser‑etched physical credit card for use where Apple Pay is not accepted yet
+                </p>
+                <div class="btn11">
+                    <button class="btnblack11" onclick="document.getElementById('iphone11').src='iphone11black.png'"></button>
+                    <button class="btnwhite11" onclick="document.getElementById('iphone11').src='iphone11white.png'"></button>
+                    <button class="btnyellow11" onclick="document.getElementById('iphone11').src='iphone11yellow.png'"></button>
+                    <button class="btnred11" onclick="document.getElementById('iphone11').src='iphone11red.png'"></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container2">
+            <div class="box2_1">
+                <img class="img_iphone8" src="iphone8plusspgray.png" id="iphone8"> 
+            </div>
+            <div class="box2_2">
+                    <p><b>Display:</b>6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology<br>
+                    <b>Chip:</b>A13 Bionic chip, Third‑generation Neural Engine<br>
+                    <b>Capacity:</b>64GB/128GB/256GB<br>
+                    <b>Protection:</b>Rated IP68 (maximum depth of 2 meters up to 30 minutes) under IEC standard 60529<br>
+                    <b>TrueDepth Camera:</b>12MP camera, 4K video recording at 24 fps, 30 fps, or 60 fps<br>
+                    <b>Face ID</b>Enabled by TrueDepth camera for facial recognition<br>
+                    <b>Apple Pay:</b>Pay with your iPhone using Face ID in stores, within apps, and on the web<br>
+                    <b>Apple Card:</b>Titanium, laser‑etched physical credit card for use where Apple Pay is not accepted yet
+                </p>
+                <div class="btn8">
+                    <button class="btngrey8" onclick="document.getElementById('iphone8').src='iphone8plusspgray.png'"></button>
+                    <button class="btnsilver8" onclick="document.getElementById('iphone8').src='iphone8plussilver.png'"></button>
+                    <button class="btngold8" onclick="document.getElementById('iphone8').src='iphone8plusgold.png'"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+
+	<div class="contacts" id="offers">
+    	<center><h5>Feedback</h5></center>
+	    <form class="form_input">
+	        <label for="name">Name <span>*</span></label><br>
+	        <input type="text" placeholder="Enter your name" name="name" id="name" required><br>
+	        <label for="email">Email <span>*</span></label><br>
+			<input type="email" placeholder="Enter your email" name="email" id="email" required><br>
+			<label for="message">Message <span>*</span></label><br>
+			<textarea placeholder="Enter your message" name="message" id="message" required></textarea><br>
+			<label for="chck">I agree</label>
+			<input type="checkbox" name="chck" id="chck"><br>
+			<button class="btn" type="submit" id="but">Submit</button>
+	    </form>
+	</div>
+
+	<div class="faq" id="help">
+		<div>
+			<span class="title">Payment</span><br>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+		</div>
+		<div>
+			<span class="title">Payment</span><br>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+		</div>
+		<div>
+			<span class="title">Payment</span><br>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+			<span class="heading">How will the payment go?</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sit rem consequuntur sed. Magnam voluptatibus, ut laboriosam eos doloremque quis veniam esse. Delectus alias iusto cupiditate, laboriosam est magni aperiam.</p>
+		</div>
+	</div>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script>
+	    function slowScroll(id) {
+	      $('html, body').animate({
+	        scrollTop: $(id).offset().top
+	      }, 500);
+	    }
+
+	    $(document).on("scroll", function () {
+	      if($(window).scrollTop() === 0)
+	        $("header").removeClass("fixed");
+	      else
+	        $("header").attr("class", "fixed");
+	    });
+	  </script>
+</body>
+</html>
